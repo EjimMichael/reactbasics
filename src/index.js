@@ -1,14 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import App from './components/App'
+import './index.css'
 
-const name = "Ejim Michael";
-const currentDate = new Date();
-const year = currentDate.getFullYear();
+
 
 ReactDOM.render(
-  <div>
-    <p> Created by {name}</p>
-    <p>Copyright &copy; {year}</p>
-  </div>,
-   document.getElementById('root')
+    <App />,
+  document.getElementById("root")
 );
+
